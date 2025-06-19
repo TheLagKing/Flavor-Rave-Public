@@ -50,5 +50,5 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: androidBuild
-          path: export/android/bin/app.apk
+          path: export/android/bin/FlavorRave.apk
           if-no-files-found: error
